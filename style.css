@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: gray;
+  }
+
+  div {
+    text-align: center;
+  }
+
+  input {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  button {
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .efface{
+    background-color: red;
+  }
+  .egal{
+    background-color: black;
+    color: white;
+  }
+  .plus{
+    background-color: blue;
+  }
+  .moins{
+    background-color: yellow;
+  }
+  .fois{
+    background-color: greenyellow;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+.bordure{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #E3EAF1;
+    box-shadow: 0 10px 30px black;
+    border-radius: 5px;
+}
